@@ -1,3 +1,12 @@
-# chatline-genai-wrapper
-Chat con Gemini Live da terminale. Imita la logica di langchain-googlegenai ma con google-genai Client. Genera un riassunto da file (txt, md, json, pdf) e chiama il tool per estrarre i topic principali.
-Basta inserire la propria api-key nel file .env e installare le dipendenze requirements.txt
+# chatline-Ollama
+Modulo Assistente Vocale Gemma con Integrazione RAG e Tool Calling.
+
+Questo script implementa un assistente virtuale capace di leggere file, 
+indicizzarli in un database vettoriale (FAISS), rispondere a query complesse 
+utilizzando modelli Ollama e interagire tramite sintesi e riconoscimento vocale.
+
+Dipendenze:
+Ollama
+Vosk-model
+Gemma
+functiongemma
