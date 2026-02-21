@@ -1,0 +1,18 @@
+# GenAI SDK
+google-genai
+mistralai
+
+# LangChain Base & Community
+langchain-core>=1.2.5
+langchain-community>=0.4.1
+langchain-text-splitters>=1.1.0
+
+# Vector Store & Document Loaders
+faiss-cpu>=1.13.2
+pypdf>=4.0.0
+
+# Utilities
+python-dotenv>=1.2.1
+typing-extensions>=4.5.0
+httpx>=0.27.0
+gradio>=6.5.1
